@@ -1,3 +1,1 @@
-import HeaderVue from './layouts/Header.vue';
-
-export { HeaderVue };
+export { default as Layouts } from './layouts';
