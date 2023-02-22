@@ -7,7 +7,7 @@ const routes: Array<RouteRecordRaw> = [
     component: () => HomeVue,
   },
   {
-    path: '/',
+    path: '/login',
     component: () => LoginVue,
   },
 ];

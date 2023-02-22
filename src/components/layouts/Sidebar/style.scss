@@ -1,15 +1,18 @@
 .sidebar {
-  @apply bg-primary text-white p-4 h-full;
+  @apply flex flex-col;
+  @apply text-white w-[400px] h-full;
   transition: transform 0.4s ease-in-out;
 
   .sidebar-head {
-    .hamburger {
-      @apply flex flex-col gap-1 w-6;
+    @apply w-full h-[50px] bg-gray-900;
 
-      span {
-        @apply h-1 rounded-lg bg-white;
-      }
+    h3 {
+      @apply text-xl font-bold;
     }
+  }
+
+  .sidebar-contents {
+    @apply bg-gray-800 flex-1;
   }
 }
 

@@ -9,14 +9,8 @@ const menuList = computed(() => menusStore.getMenus);
 <template>
   <div class="sidebar">
     <div class="sidebar-head">
-      <div class="hamburger opend">
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
+      <h3>ADMIN DASHBOARD</h3>
     </div>
-
-    <div class="sidebar-logo">MENU</div>
 
     <ul class="sidebar-contents">
       <li v-for="menu in menuList">
